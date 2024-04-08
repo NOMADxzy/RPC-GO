@@ -42,6 +42,7 @@ public class RpcRequestHandler {
     private Object invokeTargetMethod(RpcRequest rpcRequest, Object service) {
         Object result;
         try {
+            // 根据方法名 和 参数类型 重载方法
             Method method = service.getClass().getMethod(rpcRequest.getMethodName(), rpcRequest.getParamTypes());
             result = method.invoke(service, rpcRequest.getParameters());
             log.info("service:[{}] successful invoke method:[{}]", rpcRequest.getInterfaceName(), rpcRequest.getMethodName());

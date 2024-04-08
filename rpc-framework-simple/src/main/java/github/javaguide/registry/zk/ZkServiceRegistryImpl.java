@@ -17,7 +17,7 @@ import java.net.InetSocketAddress;
 public class ZkServiceRegistryImpl implements ServiceRegistry {
 
     @Override
-    public void registerService(String rpcServiceName, InetSocketAddress inetSocketAddress) {
+    public void registerService(String rpcServiceName, InetSocketAddress inetSocketAddress) { // 创建 名字为 服务名称 的节点
         String servicePath = CuratorUtils.ZK_REGISTER_ROOT_PATH + "/" + rpcServiceName + inetSocketAddress.toString();
         CuratorFramework zkClient = CuratorUtils.getZkClient();
         CuratorUtils.createPersistentNode(zkClient, servicePath);

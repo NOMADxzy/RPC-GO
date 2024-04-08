@@ -17,10 +17,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * @author shuang.kou
- * @createTime 2020年05月13日 11:23:00
- */
 @Slf4j
 public class ZkServiceProviderImpl implements ServiceProvider {
 
