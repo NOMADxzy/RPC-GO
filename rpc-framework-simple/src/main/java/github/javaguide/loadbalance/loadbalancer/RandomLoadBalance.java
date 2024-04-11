@@ -8,9 +8,6 @@ import java.util.Random;
 
 /**
  * Implementation of random load balancing strategy
- *
- * @author shuang.kou
- * @createTime 2020年06月21日 07:47:00
  */
 public class RandomLoadBalance extends AbstractLoadBalance {
     @Override

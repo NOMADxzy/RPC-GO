@@ -12,9 +12,6 @@ import java.lang.reflect.Method;
 
 /**
  * RpcRequest processor
- *
- * @author shuang.kou
- * @createTime 2020年05月13日 09:05:00
  */
 @Slf4j
 public class RpcRequestHandler {

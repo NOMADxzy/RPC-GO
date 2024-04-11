@@ -7,9 +7,6 @@ import java.net.InetSocketAddress;
 
 /**
  * service discovery
- *
- * @author shuang.kou
- * @createTime 2020年06月01日 15:16:00
  */
 @SPI
 public interface ServiceDiscovery {

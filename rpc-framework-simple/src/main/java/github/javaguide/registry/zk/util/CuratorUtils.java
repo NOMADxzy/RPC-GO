@@ -22,9 +22,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Curator(zookeeper client) utils
- *
- * @author shuang.kou
- * @createTime 2020年05月31日 11:38:00
  */
 @Slf4j
 public final class CuratorUtils {

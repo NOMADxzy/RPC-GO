@@ -5,9 +5,6 @@ import github.javaguide.remoting.dto.RpcRequest;
 
 /**
  * send RpcRequest。
- *
- * @author shuang.kou
- * @createTime 2020年05月29日 13:26:00
  */
 @SPI
 public interface RpcRequestTransport {

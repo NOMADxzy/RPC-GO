@@ -8,8 +8,6 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * @author shuang.kou
- * @createTime 2020年07月21日 20:23:00
  **/
 @AllArgsConstructor
 @NoArgsConstructor
