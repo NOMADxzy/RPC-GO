@@ -14,9 +14,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * scan and filter specified annotations
- *
- * @author shuang.kou
- * @createTime 2020年08月10日 22:12:00
  */
 @Slf4j
 public class CustomScannerRegistrar implements ImportBeanDefinitionRegistrar, ResourceLoaderAware {
